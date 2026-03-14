@@ -16,6 +16,13 @@ This project is an AI-powered tool designed to support the **National Digital Li
 - **Interface:** Gradio
 - **Data Handling:** NumPy, Pillow, Matplotlib
 
+  ## ⚠️ Known Limitations & Challenges
+While the model achieves 90% accuracy, there are specific "Fine-Grained" challenges where the AI may struggle:
+* **Color Similarity:** Many indigenous Indian breeds (e.g., Tharparkar, Ongole, Hariana) primarily have white or light-grey skin. The AI sometimes confuses these breeds if the lighting is flat.
+* **Morphological Overlap:** Breeds with similar hump sizes or ear shapes can lead to lower confidence scores.
+* **Lighting Conditions:** Overexposed (too bright) photos of white cattle can "wash out" the texture details the AI needs to differentiate breeds.
+* **Crossbreeding:** The model is trained on purebred characteristics; crossbred animals may produce unexpected results.
+
 ## 📦 Installation & Setup
 1. **Clone the Repo:**
    ```bash
