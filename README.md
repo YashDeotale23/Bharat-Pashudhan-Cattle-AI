@@ -25,7 +25,7 @@ While the model achieves 90% accuracy, there are specific "Fine-Grained" challen
 
 ## 📦 Installation & Setup
 1. **Download the Model:**
-   [Click Here to Download the Trained .keras Model](PASTE_YOUR_LINK_HERE)
+   [Click Here to Download the Trained .keras Model](https://github.com/YashDeotale23/Bharat-Pashudhan-Cattle-AI/releases/download/v1.0/bharat_pashudhan_final.keras)
    *(Important: Place this file inside your project folder after downloading)*.
 
 2. **Install Dependencies:**
