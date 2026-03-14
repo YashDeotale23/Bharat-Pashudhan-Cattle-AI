@@ -16,7 +16,7 @@ This project is an AI-powered tool designed to support the **National Digital Li
 - **Interface:** Gradio
 - **Data Handling:** NumPy, Pillow, Matplotlib
 
-  ## ⚠️ Known Limitations & Challenges
+## ⚠️ Known Limitations & Challenges
 While the model achieves 90% accuracy, there are specific "Fine-Grained" challenges where the AI may struggle:
 * **Color Similarity:** Many indigenous Indian breeds (e.g., Tharparkar, Ongole, Hariana) primarily have white or light-grey skin. The AI sometimes confuses these breeds if the lighting is flat.
 * **Morphological Overlap:** Breeds with similar hump sizes or ear shapes can lead to lower confidence scores.
@@ -24,6 +24,10 @@ While the model achieves 90% accuracy, there are specific "Fine-Grained" challen
 * **Crossbreeding:** The model is trained on purebred characteristics; crossbred animals may produce unexpected results.
 
 ## 📦 Installation & Setup
-1. **Clone the Repo:**
+1. **Download the Model:**
+   [Click Here to Download the Trained .keras Model](PASTE_YOUR_LINK_HERE)
+   *(Important: Place this file inside your project folder after downloading)*.
+
+2. **Install Dependencies:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/Cattle_AI_Project.git](https://github.com/YOUR_USERNAME/Cattle_AI_Project.git)
+   pip install -r requirements.txt
